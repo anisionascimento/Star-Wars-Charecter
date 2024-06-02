@@ -45,9 +45,11 @@ span {
 i {
     font-size: 1.2rem;
 }
+
 i:hover{
     color: gold;
 }
+/*começando as partes dos cards */
 .main-container {
     display: flex;
     align-items: center;
