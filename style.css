@@ -4,7 +4,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    color: #fff;
+     }
+body{
+    /* */
+    background-image: url('/assets/universo.jpg');/*imagem do fundo  */
+    background-size: cover;/*para a imagem ocupar todo o fundo */
 }
-h1 {
-    font-family: 'star-wars', sans-serif;
+a{
+    text-decoration: none;
+}
+header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img {
+    width: 40%;
+    height: auto;
+}
+span {
+    font-family: star wars,sans-serif;
+    font-size: 1rem;
+}
+.social-midia {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+
+}
+i {
+    font-size: 1.2rem;
+}
+i:hover{
+    color: gold;
 }
