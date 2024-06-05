@@ -56,8 +56,10 @@ i:hover{
     flex-direction: column;
     width: 100%;
     padding: 20px o; 
+    
    
 }
+
 h2 {
     font-family: star wars,sans-serif;
     margin-bottom: 20px;
@@ -84,7 +86,7 @@ h2 {
     border-radius: 8px;
     cursor: pointer;
     transition: 0.5s;
-    padding: 5px;
+    padding: 5 px;
 
 }
 .cards:hover {
